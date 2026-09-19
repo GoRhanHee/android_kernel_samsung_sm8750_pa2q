@@ -1,0 +1,7 @@
+# Disable Samsung anti-root protection
+CONFIG_UH=n
+CONFIG_RKP=n
+CONFIG_KDP=n
+CONFIG_SECURITY_DEFEX=n
+CONFIG_PROCA=n
+CONFIG_FIVE=n

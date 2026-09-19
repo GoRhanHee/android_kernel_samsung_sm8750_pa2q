@@ -152,6 +152,7 @@ filegroup(
     srcs = [
         # keep sorted
         "arch/arm64/configs/gki_sec_defconfig",
+        "arch/arm64/configs/gorhanhee_defconfig",
     ],
     visibility = ["//visibility:public"],
 )
