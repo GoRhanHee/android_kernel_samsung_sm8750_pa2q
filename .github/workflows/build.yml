@@ -16,9 +16,9 @@ jobs:
 
     - name: Import Kernel Source
       uses: actions/checkout@v4   
-      
-          - name: Install build dependencies
-        run: |
+
+    - name: Install build dependencies
+      run: |
           sudo apt-get update
           sudo apt-get install --no-install-recommends -y \
             android-sdk-libsparse-utils \
