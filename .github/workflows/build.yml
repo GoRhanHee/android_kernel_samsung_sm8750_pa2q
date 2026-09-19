@@ -1,0 +1,71 @@
+name: Samsung GKI Kernel Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+            
+    steps:
+    - name: Free up workflow space
+      run: |
+        curl -L -o util_free_space.sh https://raw.githubusercontent.com/apache/arrow/main/ci/scripts/util_free_space.sh
+        chmod +x util_free_space.sh
+        ./util_free_space.sh
+
+    - name: Import Kernel Source
+      uses: actions/checkout@v4   
+      
+          - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            android-sdk-libsparse-utils \
+            attr \
+            autoconf \
+            automake \
+            bc \
+            bison \
+            build-essential \
+            cpio \
+            e2fsprogs \
+            erofs-utils \
+            f2fs-tools \
+            flex \
+            fuse2fs \
+            fuse3 \
+            git \
+            libelf-dev \
+            libfuse3-dev \
+            liblz4-dev \
+            libncurses5 \
+            libssl-dev \
+            libtinfo5 \
+            libtool \
+            lz4 \
+            pkg-config \
+            pv \
+            python3 \
+            rsync \
+            unzip \
+            uuid-dev \
+            wget \
+            xz-utils \
+            zip \
+            zlib1g-dev \
+            zstd
+
+    - name: Setting Scripts Permission
+      run: |    
+        chmod +x build.sh           
+
+    - name: Kernel Build
+      run: |   
+        ./build.sh
+
+    - name: Upload kernel artifacts
+      uses: actions/upload-artifact@v7
+      with:
+        name: kernel-dist
+        path: out/common-kernel/dist/
