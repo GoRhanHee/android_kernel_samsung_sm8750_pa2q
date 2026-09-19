@@ -1,0 +1,1 @@
+../../../../common/include/trace/stages/stage4_event_fields.h

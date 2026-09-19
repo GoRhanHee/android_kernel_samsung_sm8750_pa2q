@@ -1,0 +1,1 @@
+../../../../common/include/trace/stages/stage7_class_define.h

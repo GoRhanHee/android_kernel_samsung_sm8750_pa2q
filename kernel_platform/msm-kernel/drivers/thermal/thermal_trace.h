@@ -1,0 +1,1 @@
+../../../common/drivers/thermal/thermal_trace.h

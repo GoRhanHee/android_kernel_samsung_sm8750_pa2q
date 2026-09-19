@@ -1,0 +1,1 @@
+../../../common/drivers/cpuidle/dt_idle_states.h

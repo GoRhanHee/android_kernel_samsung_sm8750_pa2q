@@ -1,0 +1,1 @@
+../../../common/scripts/kconfig/internal.h

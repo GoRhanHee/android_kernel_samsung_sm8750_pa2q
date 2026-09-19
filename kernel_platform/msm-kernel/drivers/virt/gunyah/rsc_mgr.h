@@ -1,0 +1,1 @@
+../../../../common/drivers/virt/gunyah/rsc_mgr.h

@@ -1,0 +1,1 @@
+../../../../common/include/linux/spi/spi-mem.h

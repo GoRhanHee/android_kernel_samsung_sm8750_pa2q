@@ -1,0 +1,1 @@
+../../../common/drivers/md/dm-verity-verify-sig.h

@@ -1,0 +1,1 @@
+../../../common/drivers/remoteproc/remoteproc_elf_helpers.h

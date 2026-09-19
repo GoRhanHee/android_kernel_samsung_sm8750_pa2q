@@ -1,0 +1,1 @@
+../../../common/sound/usb/card.h

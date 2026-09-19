@@ -1,0 +1,1 @@
+../../../common/include/linux/of_reserved_mem.h

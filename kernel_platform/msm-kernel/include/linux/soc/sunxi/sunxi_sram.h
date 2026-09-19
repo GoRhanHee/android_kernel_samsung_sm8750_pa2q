@@ -1,0 +1,1 @@
+../../../../../common/include/linux/soc/sunxi/sunxi_sram.h

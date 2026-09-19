@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/clock/histb-clock.h

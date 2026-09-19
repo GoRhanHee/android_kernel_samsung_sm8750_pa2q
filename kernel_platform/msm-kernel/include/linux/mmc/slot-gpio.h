@@ -1,0 +1,1 @@
+../../../../common/include/linux/mmc/slot-gpio.h

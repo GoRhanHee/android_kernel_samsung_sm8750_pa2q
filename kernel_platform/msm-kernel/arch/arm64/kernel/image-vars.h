@@ -1,0 +1,1 @@
+../../../../common/arch/arm64/kernel/image-vars.h

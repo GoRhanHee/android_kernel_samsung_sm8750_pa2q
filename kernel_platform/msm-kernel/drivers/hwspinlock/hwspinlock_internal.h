@@ -1,0 +1,1 @@
+../../../common/drivers/hwspinlock/hwspinlock_internal.h

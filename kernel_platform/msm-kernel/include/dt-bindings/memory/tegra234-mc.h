@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/memory/tegra234-mc.h

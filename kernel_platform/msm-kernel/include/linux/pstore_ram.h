@@ -1,0 +1,1 @@
+../../../common/include/linux/pstore_ram.h

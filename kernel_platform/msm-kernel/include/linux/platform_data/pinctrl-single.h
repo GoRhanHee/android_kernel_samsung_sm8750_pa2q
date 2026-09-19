@@ -1,0 +1,1 @@
+../../../../common/include/linux/platform_data/pinctrl-single.h

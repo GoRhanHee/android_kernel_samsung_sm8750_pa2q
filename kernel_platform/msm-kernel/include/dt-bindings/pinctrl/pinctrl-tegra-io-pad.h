@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/pinctrl/pinctrl-tegra-io-pad.h

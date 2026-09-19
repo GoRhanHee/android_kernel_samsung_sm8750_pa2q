@@ -1,0 +1,1 @@
+../../../common/include/kvm/power_domain.h

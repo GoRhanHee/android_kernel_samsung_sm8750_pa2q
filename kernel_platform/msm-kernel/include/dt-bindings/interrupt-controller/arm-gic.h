@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/interrupt-controller/arm-gic.h

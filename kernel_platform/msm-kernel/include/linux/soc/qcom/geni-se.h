@@ -1,0 +1,1 @@
+../../../../../common/include/linux/soc/qcom/geni-se.h

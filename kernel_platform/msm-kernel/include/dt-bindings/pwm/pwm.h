@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/pwm/pwm.h

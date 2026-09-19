@@ -1,0 +1,1 @@
+../../../../common/drivers/ufs/host/ufs-hisi.h

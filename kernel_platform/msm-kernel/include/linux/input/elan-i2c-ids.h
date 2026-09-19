@@ -1,0 +1,1 @@
+../../../../common/include/linux/input/elan-i2c-ids.h

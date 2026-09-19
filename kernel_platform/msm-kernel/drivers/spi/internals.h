@@ -1,0 +1,1 @@
+../../../common/drivers/spi/internals.h

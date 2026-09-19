@@ -1,0 +1,1 @@
+../../../common/drivers/pinctrl/devicetree.h

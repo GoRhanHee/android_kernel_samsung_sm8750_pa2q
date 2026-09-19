@@ -1,0 +1,1 @@
+../../../../common/drivers/firmware/arm_scmi/raw_mode.h

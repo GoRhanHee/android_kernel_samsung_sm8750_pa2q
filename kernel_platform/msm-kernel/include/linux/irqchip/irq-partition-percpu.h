@@ -1,0 +1,1 @@
+../../../../common/include/linux/irqchip/irq-partition-percpu.h

@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/soc/tegra-pmc.h

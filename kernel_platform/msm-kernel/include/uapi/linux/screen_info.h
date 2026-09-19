@@ -1,0 +1,1 @@
+../../../../common/include/uapi/linux/screen_info.h

@@ -1,0 +1,1 @@
+../../../common/include/acpi/ghes.h

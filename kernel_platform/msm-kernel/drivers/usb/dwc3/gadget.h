@@ -1,0 +1,1 @@
+../../../../common/drivers/usb/dwc3/gadget.h

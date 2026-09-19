@@ -1,0 +1,1 @@
+../../../common/include/linux/sys_soc.h

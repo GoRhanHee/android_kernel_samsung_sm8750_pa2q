@@ -1,0 +1,1 @@
+../../../../common/drivers/usb/typec/bus.h

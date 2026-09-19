@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/spmi/spmi.h

@@ -1,0 +1,1 @@
+../../../../common/drivers/pinctrl/tegra/pinctrl-tegra.h

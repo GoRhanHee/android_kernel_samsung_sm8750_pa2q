@@ -1,0 +1,1 @@
+../../../../common/include/uapi/linux/virtio_scmi.h

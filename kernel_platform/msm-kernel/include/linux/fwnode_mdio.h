@@ -1,0 +1,1 @@
+../../../common/include/linux/fwnode_mdio.h

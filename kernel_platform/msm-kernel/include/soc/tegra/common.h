@@ -1,0 +1,1 @@
+../../../../common/include/soc/tegra/common.h

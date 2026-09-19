@@ -1,0 +1,1 @@
+../../../common/include/linux/cpu_cooling.h

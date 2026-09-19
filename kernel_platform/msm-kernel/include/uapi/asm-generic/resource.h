@@ -1,0 +1,1 @@
+../../../../common/include/uapi/asm-generic/resource.h

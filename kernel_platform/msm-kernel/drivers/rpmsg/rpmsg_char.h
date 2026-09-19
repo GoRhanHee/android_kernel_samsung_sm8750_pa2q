@@ -1,0 +1,1 @@
+../../../common/drivers/rpmsg/rpmsg_char.h

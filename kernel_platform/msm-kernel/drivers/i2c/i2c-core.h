@@ -1,0 +1,1 @@
+../../../common/drivers/i2c/i2c-core.h

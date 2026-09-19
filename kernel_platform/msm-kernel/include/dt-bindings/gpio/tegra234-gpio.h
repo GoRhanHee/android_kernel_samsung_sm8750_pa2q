@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/gpio/tegra234-gpio.h

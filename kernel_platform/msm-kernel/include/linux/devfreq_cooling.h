@@ -1,0 +1,1 @@
+../../../common/include/linux/devfreq_cooling.h

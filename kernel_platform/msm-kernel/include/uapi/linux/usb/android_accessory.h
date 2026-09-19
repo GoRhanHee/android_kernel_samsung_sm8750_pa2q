@@ -1,0 +1,1 @@
+../../../../../common/include/uapi/linux/usb/android_accessory.h

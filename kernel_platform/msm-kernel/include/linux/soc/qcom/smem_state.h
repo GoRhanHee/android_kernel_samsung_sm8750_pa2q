@@ -1,0 +1,1 @@
+../../../../../common/include/linux/soc/qcom/smem_state.h

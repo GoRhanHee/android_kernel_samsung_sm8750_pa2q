@@ -1,0 +1,1 @@
+../../../../common/include/soc/at91/atmel-secumod.h

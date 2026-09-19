@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/clock/hi3670-clock.h

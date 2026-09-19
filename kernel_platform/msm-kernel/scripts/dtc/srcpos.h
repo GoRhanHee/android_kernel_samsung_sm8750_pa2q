@@ -1,0 +1,1 @@
+../../../common/scripts/dtc/srcpos.h

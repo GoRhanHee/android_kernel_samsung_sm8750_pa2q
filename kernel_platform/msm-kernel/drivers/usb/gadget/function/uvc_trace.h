@@ -1,0 +1,1 @@
+../../../../../common/drivers/usb/gadget/function/uvc_trace.h

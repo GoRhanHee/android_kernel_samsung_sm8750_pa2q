@@ -1,0 +1,1 @@
+../../../../common/include/net/bluetooth/hci_core.h

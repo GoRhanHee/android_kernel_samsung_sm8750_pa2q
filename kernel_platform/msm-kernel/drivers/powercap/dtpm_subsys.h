@@ -1,0 +1,1 @@
+../../../common/drivers/powercap/dtpm_subsys.h

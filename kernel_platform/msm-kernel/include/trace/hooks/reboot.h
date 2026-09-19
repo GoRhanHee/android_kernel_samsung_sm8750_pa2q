@@ -1,0 +1,1 @@
+../../../../common/include/trace/hooks/reboot.h

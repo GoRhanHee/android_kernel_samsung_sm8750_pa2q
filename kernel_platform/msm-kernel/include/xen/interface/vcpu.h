@@ -1,0 +1,1 @@
+../../../../common/include/xen/interface/vcpu.h

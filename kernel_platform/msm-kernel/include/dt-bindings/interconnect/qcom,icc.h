@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/interconnect/qcom,icc.h

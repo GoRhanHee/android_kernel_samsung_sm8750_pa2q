@@ -1,0 +1,1 @@
+../../../common/drivers/thermal/thermal_core.h

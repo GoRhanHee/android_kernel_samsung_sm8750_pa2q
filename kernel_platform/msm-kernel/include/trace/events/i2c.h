@@ -1,0 +1,1 @@
+../../../../common/include/trace/events/i2c.h

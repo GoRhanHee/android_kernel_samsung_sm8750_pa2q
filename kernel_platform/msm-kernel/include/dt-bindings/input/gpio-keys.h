@@ -1,0 +1,1 @@
+../../../../common/include/dt-bindings/input/gpio-keys.h

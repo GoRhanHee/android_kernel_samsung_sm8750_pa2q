@@ -1,0 +1,1 @@
+../../../../common/include/linux/phy/phy-mipi-dphy.h

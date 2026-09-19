@@ -1,0 +1,1 @@
+../../../../common/include/soc/tegra/bpmp-abi.h

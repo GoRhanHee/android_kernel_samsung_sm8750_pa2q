@@ -1,0 +1,1 @@
+../../../common/include/ufs/ufshcd.h

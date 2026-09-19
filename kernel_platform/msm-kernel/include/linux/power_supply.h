@@ -1,0 +1,1 @@
+../../../common/include/linux/power_supply.h

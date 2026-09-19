@@ -1,0 +1,1 @@
+../../../common/drivers/ptp/ptp_private.h

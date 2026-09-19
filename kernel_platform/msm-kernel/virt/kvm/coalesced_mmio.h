@@ -1,0 +1,1 @@
+../../../common/virt/kvm/coalesced_mmio.h
