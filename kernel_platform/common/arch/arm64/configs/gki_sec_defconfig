@@ -48,42 +48,7 @@ CONFIG_PROC_AVC=y
 
 
 
-# CONFIG_PROCA_S_OS is not set
-
-
-
-
-# CONFIG_PROCA_CERTIFICATES_DB is not set
-
-
-
-
-# CONFIG_FIVE_TEE_DRIVER is not set
-
-
-
-
-# CONFIG_FIVE_PA_FEATURE is not set
-
-
-
-
-# CONFIG_FIVE_GKI_10 is not set
-
-
-
-
-# CONFIG_PROCA_GKI_10 is not set
-
-
-
-
 # CONFIG_GAF is not set
-
-
-
-
-# CONFIG_GAF_V6 is not set
 
 
 
@@ -173,22 +138,7 @@ CONFIG_PROC_AVC=y
 
 
 
-# CONFIG_SECURITY_DEFEX_USER is not set
-
-
-
-
-# CONFIG_SECURITY_DEFEX_DTM is not set
-
-
-
-
 # CONFIG_SECURITY_DEFEX_IMR is not set
-
-
-
-
-# CONFIG_SECURITY_DEFEX_IMR_V2 is not set
 
 
 
