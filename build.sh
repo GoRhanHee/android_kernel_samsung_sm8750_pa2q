@@ -1,5 +1,39 @@
 #!/bin/bash
 
+# Import KernelSU-Next
+(cd ./kernel_platform/common/ && curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s dev)
+
+# Import toolchain
+KERNEL_PLATFORM="${ANDROID_BUILD_TOP}/kernel_platform"
+TOOLCHAIN_URL="https://github.com/GoRhanHee/android_kernel_samsung_sm8750_pa2q/releases/download/toolchain"
+if [ ! -d "${KERNEL_PLATFORM}/prebuilts" ]; then
+
+    TOOLCHAIN_TMP=$(mktemp -d)
+
+    curl -fL --retry 3 \
+        "${TOOLCHAIN_URL}/toolchain.z01" \
+        -o "${TOOLCHAIN_TMP}/toolchain.z01"
+
+    curl -fL --retry 3 \
+        "${TOOLCHAIN_URL}/toolchain.zip" \
+        -o "${TOOLCHAIN_TMP}/toolchain.zip"
+
+    (
+        cd "${TOOLCHAIN_TMP}" || exit 1
+
+        zip -s 0 toolchain.zip --out toolchain-full.zip
+
+        unzip -q toolchain-full.zip
+
+        mkdir -p extracted
+        tar -xzf toolchain.tar.gz -C extracted
+
+        cp -a extracted/kernel_platform/prebuilts "${KERNEL_PLATFORM}/"
+    )
+
+    rm -rf "${TOOLCHAIN_TMP}"
+fi
+
 #1. target config
 BUILD_TARGET=pa2q_kor_singlex
 export MODEL=$(echo $BUILD_TARGET | cut -d'_' -f1)
