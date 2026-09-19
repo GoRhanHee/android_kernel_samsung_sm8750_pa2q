@@ -71,5 +71,5 @@ export KBUILD_EXT_MODULES="\
 cd ./kernel_platform/
 
 # Only cook common GKI Kernel
-./tools/bazel run //common:kernel_aarch64_dist -- \
+./tools/bazel run --lto=thin //common:kernel_aarch64_dist -- \
     --dist_dir="${ANDROID_BUILD_TOP}/out/common-kernel/dist"
