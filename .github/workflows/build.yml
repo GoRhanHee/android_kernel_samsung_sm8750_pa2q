@@ -19,42 +19,12 @@ jobs:
 
     - name: Install build dependencies
       run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends -y \
-            android-sdk-libsparse-utils \
-            attr \
-            autoconf \
-            automake \
-            bc \
-            bison \
-            build-essential \
-            cpio \
-            e2fsprogs \
-            erofs-utils \
-            f2fs-tools \
-            flex \
-            fuse2fs \
-            fuse3 \
-            git \
-            libelf-dev \
-            libfuse3-dev \
-            liblz4-dev \
-            libncurses5 \
-            libssl-dev \
-            libtinfo5 \
-            libtool \
-            lz4 \
-            pkg-config \
-            pv \
-            python3 \
-            rsync \
-            unzip \
-            uuid-dev \
-            wget \
-            xz-utils \
-            zip \
-            zlib1g-dev \
-            zstd
+        sudo apt-get update
+        sudo apt-get install --no-install-recommends -y \
+          curl \
+          git \
+          unzip \
+          zip
 
     - name: Setting Scripts Permission
       run: |    
