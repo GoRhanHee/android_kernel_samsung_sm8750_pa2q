@@ -9,7 +9,7 @@ export CARRIER=$(echo $BUILD_TARGET | cut -d'_' -f3)
 export TARGET_BUILD_VARIANT=user
 		
 		
-#2. sm8650 common config
+#2. sm8750 common config
 CHIPSET_NAME=sun
 
 export ANDROID_BUILD_TOP=$(pwd)
